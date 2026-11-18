@@ -1,0 +1,16 @@
+[project]
+name = "scientia-ai"
+version = "0.1.0"
+description = "Scientific research paper intelligence engine"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "torch>=2.4", "transformers>=4.44", "datasets>=2.20", "sentence-transformers>=3.0",
+  "scikit-learn", "numpy", "scipy", "pymupdf", "beautifulsoup4", "rank-bm25", "faiss-cpu",
+  "networkx", "fastapi", "uvicorn[standard]", "pydantic>=2", "pydantic-settings", "python-multipart",
+  "httpx", "pyyaml", "pytest", "pytest-asyncio", "langdetect", "matplotlib", "tqdm", "python-pptx", "pyjwt", "passlib[bcrypt]", "bcrypt<4.1",
+]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+[tool.setuptools]
+packages = []

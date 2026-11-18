@@ -1,0 +1,3 @@
+@import "tailwindcss";
+body { font-family: ui-sans-serif, system-ui, -apple-system, "Inter", sans-serif; color: #d6dbe6; }
+mark.cite { background: #1e3a5f; color: #9cc8ff; border-radius: 4px; padding: 0 4px; cursor: pointer; }

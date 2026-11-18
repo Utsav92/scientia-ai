@@ -1,0 +1,6 @@
+pyproject.toml
+scientia_ai.egg-info/PKG-INFO
+scientia_ai.egg-info/SOURCES.txt
+scientia_ai.egg-info/dependency_links.txt
+scientia_ai.egg-info/requires.txt
+scientia_ai.egg-info/top_level.txt

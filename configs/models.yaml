@@ -1,0 +1,23 @@
+# Candidate models. Availability/licences must be re-checked before use (see README).
+embedding:
+  default: minilm
+  candidates:
+    minilm:   {name: sentence-transformers/all-MiniLM-L6-v2, dim: 384, license: apache-2.0}
+    mpnet:    {name: sentence-transformers/all-mpnet-base-v2, dim: 768, license: apache-2.0}
+    bge_small: {name: BAAI/bge-small-en-v1.5, dim: 384, license: mit, query_prefix: "Represent this sentence for searching relevant passages: "}
+    specter2: {name: allenai/specter2_base, dim: 768, license: apache-2.0, note: "document-level; needs adapters for best use"}
+reranker:
+  default: minilm_ce
+  candidates:
+    minilm_ce: {name: cross-encoder/ms-marco-MiniLM-L-6-v2, license: apache-2.0}
+nli:
+  default: {name: cross-encoder/nli-deberta-v3-small, license: apache-2.0}
+classifier:
+  scibert: allenai/scibert_scivocab_uncased
+ner:
+  default: allenai/scibert_scivocab_uncased
+llm:
+  provider: none        # none | openai_compatible | ollama | hf
+  openai_compatible: {base_url: "http://localhost:8081/v1", model: "mlx-community/Qwen2.5-3B-Instruct-4bit", api_key_env: OPENAI_API_KEY}
+  ollama: {base_url: "http://localhost:11434", model: "llama3.2:3b"}
+  hf: {model: "Qwen/Qwen2.5-1.5B-Instruct"}

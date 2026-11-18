@@ -1,0 +1,6 @@
+{
+  "dataset": "allenai/peS2o",
+  "license": "ODC-By 1.0 (https://opendatacommons.org/licenses/by/1-0/)",
+  "attribution": "Soldaini & Lo (2023), peS2o (Pretraining Efficiently on S2ORC) Dataset, Allen Institute for AI.",
+  "notes": "Underlying papers (S2ORC) carry document-level licences; check them before redistributing full text."
+}

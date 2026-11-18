@@ -1,0 +1,9 @@
+chunking: {strategy: section, max_tokens: 512, overlap: 64}
+bm25: {k1: 1.5, b: 0.75}
+dense: {model: minilm, batch_size: 32, max_seq_length: 256}
+hybrid: {rrf_k: 60, bm25_weight: 1.0, dense_weight: 1.0, candidates: 100}
+rerank: {top_k: 30, model: minilm_ce}
+ingest:
+  profiles: {dev: 1000, small: 10000, medium: 100000}
+  dataset_version: v2
+  base_url: https://huggingface.co/datasets/allenai/peS2o/resolve/main/data

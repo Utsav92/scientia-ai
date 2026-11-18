@@ -1,0 +1,4 @@
+common: {seed: 13, val_frac: 0.1, test_frac: 0.1, grad_accum: 4, early_stopping_patience: 2}
+classifier: {epochs: 8, lr: 3.0e-4, batch_size: 32, d_model: 128, heads: 4, layers: 2, max_len: 256}
+embeddings: {epochs: 1, batch_size: 32, lr: 2.0e-5, warmup_ratio: 0.1}
+reranker: {epochs: 1, batch_size: 16, lr: 2.0e-5}

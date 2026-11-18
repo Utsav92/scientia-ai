@@ -1,0 +1,8 @@
+{
+ "upload": {"head": "Drop in a paper.", "sub": "Reports, papers, PDFs — read in seconds.", "pill": "Drag, drop, done", "accent": "#3b82f6", "zooms": [{"t":0,"s":1,"x":0.5,"y":0.5},{"t":2.5,"s":1.5,"x":0.5,"y":0.3},{"t":6,"s":1.5,"x":0.5,"y":0.35},{"t":9,"s":1,"x":0.5,"y":0.5}]},
+ "ask": {"head": "Ask anything.", "sub": "Answers written from the paper — every claim cited.", "pill": "Grounded answers with citations", "accent": "#8b5cf6", "zooms": [{"t":0,"s":1,"x":0.5,"y":0.5},{"t":2,"s":1.6,"x":0.45,"y":0.25},{"t":6,"s":1.6,"x":0.45,"y":0.3},{"t":9,"s":1.15,"x":0.45,"y":0.5}]},
+ "mindmap": {"head": "See the whole picture.", "sub": "A mind map of the entire report.", "pill": "Every section, every key sentence", "accent": "#06b6d4", "zooms": [{"t":0,"s":1,"x":0.5,"y":0.5}]},
+ "audio": {"head": "Hear it.", "sub": "A two-host audio overview of the paper.", "pill": "Generated — and audible", "accent": "#a855f7", "zooms": [{"t":0,"s":1,"x":0.5,"y":0.5}], "real_head": "Listen."},
+ "slides": {"head": "Present it.", "sub": "A designed slide deck, ready to share.", "pill": "Complete sentences — nothing clipped", "accent": "#f97316", "zooms": [{"t":0,"s":1,"x":0.5,"y":0.5}], "wall_head": "A full deck.", "wall_sub": "Edit it in PowerPoint."},
+ "video": {"head": "Watch it.", "sub": "A narrated video overview — rendered for you.", "pill": "Video generation, built in", "accent": "#10b981", "zooms": [{"t":0,"s":1,"x":0.5,"y":0.5}], "real_head": "Watch.", "real_sub": "A narrated video — rendered for you."}
+}
